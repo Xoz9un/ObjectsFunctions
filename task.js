@@ -36,3 +36,15 @@ function terminalName(firstName) {
 
 console.log(terminalName("Vald"));
 console.log(terminalName("Vitaly"));
+
+//Write a function to calculate the type of an argument and output the type to the console
+function typeArgument(){
+
+    for (var i = 0; i < arguments.length; i++) {
+
+        console.log(typeof arguments[i]); 
+    }
+
+}
+
+typeArgument(true,"sd",445);
