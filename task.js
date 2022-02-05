@@ -48,3 +48,21 @@ function typeArgument(){
 }
 
 typeArgument(true,"sd",445);
+
+//Write a function that determines if a number is prime or not
+function checkNumber(n) {
+    if (!Number.isInteger(n) || n < 2 ) 
+        return "Not a prime number";
+
+    let p = Math.sqrt(n);
+    for (var i = 2; i <= p; i++)
+    if (n % i === 0) 
+        return "Not a prime number2"
+
+        return "It a prime number"
+
+}
+
+console.log(checkNumber(2));
+console.log(checkNumber(43.6));
+console.log(checkNumber(50));
