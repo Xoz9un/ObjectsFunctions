@@ -21,6 +21,18 @@ function calcStore(appels,pears) {
     return appels + pears;
 }
 
-let funcRezult = calcStore(15, 23)
-console.log(funcRezult);
+console.log(calcStore(15, 23));
 
+//Your name is stored in the payment terminal, write a function to determine the name in the terminal
+function terminalName(firstName) {
+    if (firstName == "Vitaly"){
+        return ("Hi," + firstName);
+    }
+
+    else  {
+        return ("no such name")
+    } 
+}
+
+console.log(terminalName("Vald"));
+console.log(terminalName("Vitaly"));
